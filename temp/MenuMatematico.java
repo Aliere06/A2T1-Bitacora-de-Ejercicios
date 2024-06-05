@@ -66,14 +66,17 @@ public class MenuMatematico {
 
                 case 7:
                     System.out.println("Truncamiento seleccionado.");
+                    Truncador.truncarValores(scanner);
                     break;
 
                 case 8:
                     System.out.println("Redondeo seleccionado.");
+                    Redondeador.redondearValores(scanner);
                     break;
 
                 case 9:
                     System.out.println("Método de bisección seleccionado.");
+                    Biseccion.calcularBiseccion(scanner);
                     break;
 
                 case 10:
@@ -88,6 +91,7 @@ public class MenuMatematico {
 
                 case 12:
                     System.out.println("Método de Jacobi seleccionado.");
+                    Jacobi.calcularJacobi(scanner);
                     break;
 
                 case 13:
@@ -106,6 +110,7 @@ public class MenuMatematico {
 
                 case 16:
                     System.out.println("Regla de Simpson seleccionado.");
+                    Simpson.calcularSimpson(scanner);
                     break;
 
                 case 17:
